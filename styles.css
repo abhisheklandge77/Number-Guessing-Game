@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 1rem 0;
+    margin: 20vh auto;
+    background-color: #23424A;
+    color: #fff;
+    border-radius: 5px;
+    min-height: 50vh;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 40%;
+    margin: 3rem 0;
+}
+.title{
+    font-size: 1.8rem;
+    margin: 0 .5rem;
+    text-align: center;
+}
+#number-input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+#guess-btn{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #38CFD9;
+    color: #23424A;
+    font-weight: bold;
+    cursor: pointer;
+}
+#guess-btn:hover{
+    background-color: #1dc0cc;
+}
+.play-again-btn{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #38CFD9;
+    color: #23424A;
+    font-weight: bold;
+    cursor: pointer;
+}
+.play-again-btn:hover{
+    background-color: #1dc0cc;
+}
+#no-of-chances-left{
+    font-size: 1.1rem;
+}
+.chances-count-red{
+    color: red;
+}
+#result{
+    font-size: 1.1rem;
+    margin: 5px;
+    text-align: center;
+}
